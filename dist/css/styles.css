@@ -2481,7 +2481,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #64a19d;
+  background-color:#008000;
   border-color: #64a19d;
 }
 .btn-primary:hover {
@@ -10367,4 +10367,96 @@ body {
 
 .team-item__list {
     padding: 10px 0px 0px 20px;
+}
+
+.master-class-table__title {
+    caption-side: top;
+}
+
+.master-class-table__btn {
+    margin: 0px auto 20px auto;
+}
+
+.membership {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.membership__block {
+    width: 315px;
+    height: auto;
+    min-height: 100px;
+    background-color: white;
+}
+
+.membership__link {
+    text-decoration: none;
+}
+
+
+.membership__photo {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: auto;
+    height: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.membership__block-free {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 30px 0px 30px 0px;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.membership__link-free {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin: 110px 0px 0px 160px;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: green;
+}
+
+.membership__block-price {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.membership__link-price {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin: 110px 0px 0px 160px;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: green;
 }

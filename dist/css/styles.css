@@ -2481,28 +2481,28 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color:#008000;
+  background-color: #6610f2;
   border-color: #64a19d;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #548b87;
+  background-color: #450aa5;
   border-color: #4f837f;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #548b87;
+  background-color: #6e4ccc;
   border-color: #4f837f;
   box-shadow: 0 0 0 0.2rem rgba(123, 175, 172, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #64a19d;
+  background-color: #3e4ea5;
   border-color: #64a19d;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #4f837f;
+  background-color: #4d74c9;
   border-color: #4a7b78;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
@@ -10229,7 +10229,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: normal;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -10381,6 +10381,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr 1fr;
+    padding-top: 35px;
 }
 
 .membership__block {
@@ -10393,7 +10394,6 @@ body {
 .membership__link {
     text-decoration: none;
 }
-
 
 .membership__photo {
     grid-column-start: 2;
@@ -10422,7 +10422,7 @@ body {
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-    margin: 110px 0px 0px 160px;
+    margin: 0px auto 0px auto;
     padding: 0px 0px 0px 0px;
     box-sizing: border-box;
     display: flex;
@@ -10431,7 +10431,7 @@ body {
     width: 200px;
     height: 50px;
     border-radius: 50px;
-    background-color: green;
+    background-color: #6610f2;
 }
 
 .membership__block-price {
@@ -10449,7 +10449,7 @@ body {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    margin: 110px 0px 0px 160px;
+    margin: 0px auto 0px auto;
     padding: 0px 0px 0px 0px;
     box-sizing: border-box;
     display: flex;
@@ -10458,5 +10458,20 @@ body {
     width: 200px;
     height: 50px;
     border-radius: 50px;
-    background-color: green;
+    background-color: #6610f2;
+}
+
+.footer__wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.feedback .feedback-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0px 10px 0px;
 }
